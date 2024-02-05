@@ -45,12 +45,16 @@
   gap: 1.5rem;
   color: var(--subtitle);
 }
-
+.hero .social-icons .icon {
+  color: var(--subtitle);
+}
 .hero .social-icons .icon:hover {
   /* font-size: 1.3rem; */
   scale: 1.1;
   color: var(--hover-icon);
   transition: 0.3s;
+  cursor: pointer;
+
 }
 
 /* right Section Animation */
